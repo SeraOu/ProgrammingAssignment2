@@ -10,7 +10,7 @@ makeCacheMatrix<-function(x=matrix()){
   list(setmatrix=setmatrix, getmatrix=getmatrix,
        setinv=setinv, getinv=getinv)
 }
-
+##this function
 cacheSolve <- function(x, ...) {
   inv <- x$getinv()
   if(!is.null(inv)) {
